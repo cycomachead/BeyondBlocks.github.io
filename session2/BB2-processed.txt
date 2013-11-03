@@ -1,0 +1,369 @@
+Script started on Fri 01 Nov 2013 02:29:17 PM PDT
+song@song-ubuntu:~/work$ cd ..
+song@song-ubuntu:~$ cd Desktop/
+song@song-ubuntu:~/Desktop$ python -i bb2.py
+>>>
+[1]+  Stopped		      python -i bb2.py
+song@song-ubuntu:~/Desktop$ cd ..
+song@song-ubuntu:~$ cd Desktop/
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> hailstone(11)
+11
+34
+17.0
+52.0
+26.0
+13.0
+40.0
+20.0
+10.0
+5.0
+16.0
+8.0
+4.0
+2.0
+1.0
+'done'
+>>> exit()
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> exit()
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> hailstone(11)
+11
+34
+17.0
+52.0
+26.0
+13.0
+40.0
+20.0
+10.0
+5.0
+16.0
+8.0
+4.0
+2.0
+1.0
+'done'
+>>> rec_h(11)
+11
+34
+17.0
+52.0
+26.0
+13.0
+40.0
+20.0
+10.0
+5.0
+16.0
+8.0
+4.0
+2.0
+1.0
+'done'
+>>> word"=="Hello World!"
+>>> print(word.index("l")))
+2
+>>> exit()
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> extra_end('ab')
+'ababab'
+>>> extra_end('hello')
+'lololo'
+>>> word = "Beyond Blocks22"
+>>> word[2:5]
+'yon'
+>>> word[3:]
+'ond Blocks 2'
+>>> word[:6]
+'Beyond'
+>>> word[-2:5]
+''
+>>> word[-3:]
+'s 2'
+>>> word[100000:10000001]
+''
+>>> from random import random
+>>> random.randon()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'builtin_function_or_method' object has no attribute 'randon'
+>>> random.random()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'builtin_function_or_method' object has no attribute 'random'
+>>> from random import randint
+>>> randint(0,n100)
+41
+>>> randint(0, 100)
+6
+>>> randint(0, 100)
+28
+>>> randint(0, 100)
+65
+>>> randint(0, 100)
+15
+>>> exit()
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> tell_me("tell me")_
+"You must learn to say 'Please'"
+>>> tell_me("kick"me")
+"You must learn to say 'Please'"
+>>> tell_me("tell"me"please")
+309
+>>>
+[2]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+  File "bb2.py", line 31
+    elif "please" in phrase and not "tell me" in phrase.:
+							^
+SyntaxError: invalid syntax
+>>>
+[3]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> tell_me("kick me please")
+"You must learn to say 'Please'"
+>>>
+[4]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> tell_me("kick me please")
+"You must learn to say 'Please'"
+>>> tell_me("kick me please")
+[5]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> tell_me("kick me please")
+'No.'
+>>> tetell"me")))))))please")
+"You must learn to say 'Please'"
+>>> tell_me("tell me"please")
+331
+>>> tell_me("tell me please")
+[6]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+  File "bb2.py", line 29
+    if "please" is in phrase and "tell me" is not in phrase:
+		    ^
+SyntaxError: invalid syntax
+>>> 1 is 1
+True
+>>>
+[7]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> tell_me("kick me please")(
+'No.'
+>>> tell_me("tell me please")
+70
+>>> [1,2,3,4,5]
+[1, 2, 3, 4, 5]
+>>> x = [1,2,3,4,5]
+>>> y = x
+>>> x is y
+True
+>>> y = [1,2,3,4,5]
+>>> y is x
+False
+>== x ++
+True
+>>> y[0]
+1
+>>> y[2]
+3
+>>> y[2:4]
+[3, 4]
+>>> y.append(1)
+>>> y
+[1, 2, 3, 4, 5, 1]
+>>> x1+ y,
+[1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1]
+>>> x = [1,2,3,4,5,6]
+>>> x.extend(y)
+>>> x
+[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 1]
+>>> xi=t['one', 'two', 'three']
+>>> x
+['one', 'two', 'three']
+>>> x[1]
+'two'
+>>> x = [1, 'two', 3, 'four']
+>>> x
+[1, 'two', 3, 'four']
+>>> x[1]
+'two'
+>>> x[2]
+3
+>>> x = [(1,2),(2,3),(3,4)]
+>>> x
+[(1, 2), (2, 3), (3, 4)]
+>>> a = dict(x)
+>>> a
+{1: 2, 2: 3, 3: 4}
+408'a = {'name':'Caren',)'address':'soda hall', 'phone':
+}
+>>> a
+{'phone': 408, 'name': 'Caren', 'address': 'soda hall'}
+>>> a.keys()
+dict_keys(['phone', 'name', 'address'])
+>>> a.values()
+dict_values([408, 'Caren', 'soda hall'])
+>>> a.keys
+<built-in method keys of dict object at 0x1601f60>
+>>> a['name']
+'Caren'
+>>> a['address']
+'soda hall'
+>>> a[name]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'name' is not defined
+>>> b{= {'name': [1,2,3]}
+>>> b['name']
+[1, 2, 3]
+>=>{'name':1,2,3}}]}
+  File "<stdin>", line 1
+    b = {'name': 1,2,3}
+		    ^
+SyntaxError: invalid syntax
+b[=a{'name':[[1,2,3]}3}
+>>> b['name'][1]
+2
+>>> a['name'] = 'song'
+>>> a
+{'phone': 408, 'name': 'song', 'address': 'soda hall'}
+>>> a['school'] = 'ucb'
+>>> a
+{'phone': 408, 'school': 'ucb', 'name': 'song', 'address': 'soda hall'}
+>>> b = {'dict1': a}
+>>> b
+{'dict1': {'phone': 408, 'school': 'ucb', 'name': 'song', 'address': 'soda hall'}}
+>>> a = {'name':'Caren', 1:'hello', 4:5}
+>>> a
+{1: 'hello', 4: 5, 'name': 'Caren'}
+>>> a = {'name':'Caren', 1:'hello', 4:5, 1:6}
+>>> a
+{1: 6, 4: 5, 'name': 'Caren'}
+>>> a['name']
+'Caren'
+>>> a[1]
+6
+>>> a['age']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'age'
+>>>
+[8]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> lst1 = [1,22,,3]
+>>> lst2 = [1, 2, 3]
+>>> equals(lst1, lst2)
+True
+equals(lst1,lst2)
+[9]+  Stopped		      python3 -i bb2.py
+song@song-ubuntu:~/Desktop$ python3 -i bb2.py
+>>> lst1 = [1, 2, 3]
+>>> lst2,= [1, 2 ,3]
+>>> equals(lst1, lst2)
+True
+>>> lst2.append(4)
+equals(lst1,elst2)
+False
+>>> xa=([1,22, 3, 4, 5]
+>>> def double(n):
+...	return n * 2
+...
+>>> doubles = map(double, x)
+>>> doubles
+<map object at 0x1be5890>
+>>> list(doubles)
+[2, 4, 6, 8, 10]
+>>> grades = [99, 100, 30, 70, 41, 75]
+>>> def pass(n):
+  File "<stdin>", line 1
+    def pass(n):
+	   ^
+SyntaxError: invalid syntax
+>>> def pass(n):
+  File "<stdin>", line 1
+    def pass(n):
+	   ^
+SyntaxError: invalid syntax
+>>> def pass(n):
+  File "<stdin>", line 1
+    def pass(n):
+	   ^
+SyntaxError: invalid syntax
+>>>def pass(n)::
+  File "<stdin>", line 1
+    def pass(n):
+	   ^
+SyntaxError: invalid syntax
+>>> def passed(n):
+...	if n >= 70:
+...	    return True
+...	else:
+...	    return False
+...
+>>> passed(50)
+False
+>>> grades
+[99, 100, 30, 70, 41, 75]
+>>> filter(passed, grades)
+<filter object at 0x1be5a10>
+>>> passed_scores == filter(passed, grades)
+>>> list(passed_scores)
+[99, 100, 70, 75]
+>>> fromrfunctools import reduce
+>>> scores
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'scores' is not defined
+>>> grades
+[99, 100, 30, 70, 41, 75]
+>>> def add(x,dy):(
+...	return x + y
+...
+>>> total = reduce(add, grades)
+>>> total
+415
+>>> def average_grades(lst):
+...	return reduce(add, lst) / len(lst)
+...
+>>> average_grades(grades)
+69.16666666666667
+>>> def average_passed(lst):
+	return reduce(add, filter(passed, lst))//llen(lst)
+...
+t)>	return reduce(add, filter(passed, lst)) / len(lst
+t)defeaverage_passed(lst):ter(passed, lst)) / len(lst
+
+t). returnereduce(add,(filter(passed, lst)) / len(lst
+ltn(fi
+lter
+lter(passed, lst))
+...
+>>> average_passed(grades)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in average_passed
+TypeError: object of type 'filter' has no len()
+defraverage_passed(lst):ilter(passed, lst)) / len(fil
+
+defraverage_passed(lst):ilter(passed, lst)) / len(fil
+)(fii(fs(ed,elst))add, filter(passed, lst)) / len(fil
+...
+deffaverage_passed(lst):d, filter(passed, lst)) / lenlist
+
+deffaverage_passed(lst):ilter(passed, lst)) / lenlist
+deflaverage_passed(lst):slter(passed, lst)) / lenlist
+st((filter(passed,alst)))lter(passed, lst)) / len(lis
+...
+...
+... )
+...
+>>> average_passed(grades)
+86.0
+>>> exit()
+song@song-ubuntu:~/Desktop$ exit
+exit
+There are stopped jobs.
+song@song-ubuntu:~/Desktop$ exit
